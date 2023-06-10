@@ -1,0 +1,5 @@
+.button {
+  user-select: none;
+  min-height: 50px;
+  @apply min-w-10 rounded-sm transition flex items-center justify-center text-2xl cursor-pointer;
+}

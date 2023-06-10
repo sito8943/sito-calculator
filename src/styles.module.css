@@ -1,0 +1,21 @@
+.backspace {
+}
+
+.form {
+  width: 400px;
+}
+
+.input {
+  height: 60px;
+  @apply px-2 py-2 text-right rounded-sm;
+}
+
+.row,
+.firstRow {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  @apply gap-1 my-1 grid;
+}
+
+.backspace {
+  width: 100%;
+}
